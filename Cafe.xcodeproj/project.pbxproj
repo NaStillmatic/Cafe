@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D8E66568288FF34700FD6FE4 /* CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E66567288FF34700FD6FE4 /* CafeApp.swift */; };
-		D8E6656A288FF34700FD6FE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E66569288FF34700FD6FE4 /* ContentView.swift */; };
+		D8E6656A288FF34700FD6FE4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E66569288FF34700FD6FE4 /* MainTabView.swift */; };
 		D8E6656C288FF34900FD6FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E6656B288FF34900FD6FE4 /* Assets.xcassets */; };
 		D8E6656F288FF34900FD6FE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E6656E288FF34900FD6FE4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		D8E66564288FF34700FD6FE4 /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E66567288FF34700FD6FE4 /* CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeApp.swift; sourceTree = "<group>"; };
-		D8E66569288FF34700FD6FE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8E66569288FF34700FD6FE4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		D8E6656B288FF34900FD6FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8E6656E288FF34900FD6FE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				D8E66567288FF34700FD6FE4 /* CafeApp.swift */,
-				D8E66569288FF34700FD6FE4 /* ContentView.swift */,
+				D8E66569288FF34700FD6FE4 /* MainTabView.swift */,
 				D8E6656B288FF34900FD6FE4 /* Assets.xcassets */,
 				D8E6656D288FF34900FD6FE4 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E6656A288FF34700FD6FE4 /* ContentView.swift in Sources */,
+				D8E6656A288FF34700FD6FE4 /* MainTabView.swift in Sources */,
 				D8E66568288FF34700FD6FE4 /* CafeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
