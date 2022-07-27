@@ -12,6 +12,9 @@
 		D8B871D8289194A20089D014 /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B871D7289194A20089D014 /* CoffeeMenu.swift */; };
 		D8B871DA28919A370089D014 /* EventSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B871D928919A370089D014 /* EventSectionView.swift */; };
 		D8B871DC28919AD30089D014 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B871DB28919AD30089D014 /* Event.swift */; };
+		D8B871DE28919F260089D014 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B871DD28919F260089D014 /* HomeView.swift */; };
+		D8B871E128919FC10089D014 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B871E028919FC10089D014 /* HomeHeaderView.swift */; };
+		D8B871E32891A3450089D014 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B871E22891A3450089D014 /* User.swift */; };
 		D8E66568288FF34700FD6FE4 /* CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E66567288FF34700FD6FE4 /* CafeApp.swift */; };
 		D8E6656A288FF34700FD6FE4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E66569288FF34700FD6FE4 /* MainTabView.swift */; };
 		D8E6656C288FF34900FD6FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E6656B288FF34900FD6FE4 /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 		D8B871D7289194A20089D014 /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
 		D8B871D928919A370089D014 /* EventSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSectionView.swift; sourceTree = "<group>"; };
 		D8B871DB28919AD30089D014 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D8B871DD28919F260089D014 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D8B871E028919FC10089D014 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		D8B871E22891A3450089D014 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D8E66564288FF34700FD6FE4 /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E66567288FF34700FD6FE4 /* CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeApp.swift; sourceTree = "<group>"; };
 		D8E66569288FF34700FD6FE4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -45,20 +51,30 @@
 		D8B871D5289193AF0089D014 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				D8B871D128918AC50089D014 /* Tab.swift */,
 				D8E66569288FF34700FD6FE4 /* MainTabView.swift */,
+				D8B871D128918AC50089D014 /* Tab.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
 		};
-		D8B871D6289193BC0089D014 /* Scene */ = {
+		D8B871D6289193BC0089D014 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				D8B871D5289193AF0089D014 /* Tab */,
 				D8B871D32891937D0089D014 /* MenuSuggestionSectionView.swift */,
 				D8B871D928919A370089D014 /* EventSectionView.swift */,
-				D8B871D5289193AF0089D014 /* Tab */,
+				D8B871DF28919FAF0089D014 /* Home */,
 			);
-			path = Scene;
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D8B871DF28919FAF0089D014 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D8B871DD28919F260089D014 /* HomeView.swift */,
+				D8B871E028919FC10089D014 /* HomeHeaderView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		D8E6655B288FF34700FD6FE4 = {
@@ -83,7 +99,8 @@
 				D8E66567288FF34700FD6FE4 /* CafeApp.swift */,
 				D8B871D7289194A20089D014 /* CoffeeMenu.swift */,
 				D8B871DB28919AD30089D014 /* Event.swift */,
-				D8B871D6289193BC0089D014 /* Scene */,
+				D8B871E22891A3450089D014 /* User.swift */,
+				D8B871D6289193BC0089D014 /* Scenes */,
 				D8E6656B288FF34900FD6FE4 /* Assets.xcassets */,
 				D8E6656D288FF34900FD6FE4 /* Preview Content */,
 			);
@@ -171,9 +188,12 @@
 				D8B871D228918AC50089D014 /* Tab.swift in Sources */,
 				D8B871DA28919A370089D014 /* EventSectionView.swift in Sources */,
 				D8B871D8289194A20089D014 /* CoffeeMenu.swift in Sources */,
+				D8B871E128919FC10089D014 /* HomeHeaderView.swift in Sources */,
 				D8E6656A288FF34700FD6FE4 /* MainTabView.swift in Sources */,
 				D8E66568288FF34700FD6FE4 /* CafeApp.swift in Sources */,
+				D8B871DE28919F260089D014 /* HomeView.swift in Sources */,
 				D8B871DC28919AD30089D014 /* Event.swift in Sources */,
+				D8B871E32891A3450089D014 /* User.swift in Sources */,
 				D8B871D42891937D0089D014 /* MenuSuggestionSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
