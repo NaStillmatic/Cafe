@@ -8,18 +8,21 @@
 import SwiftUI
 
 struct HomeView: View {
+  
+  @ObservedObject var viewModel = HomeViewModel()
+  
   var body: some View {    
     ScrollView(.vertical) {
-      HomeHeaderView()
-      MenuSuggestionSectionView()
+      HomeHeaderView(isNeedToReload: $viewModel.isNeedToReloard)
+      MenuSuggestionSectionView(coffeMenu: $viewModel.coffeMenu)
       Spacer(minLength: 32.0)
-      EventSectionView()
+      EventSectionView(events: $viewModel.events)
     }
   }
 }
 
-struct HomeView_Previews: PreviewProvider {
-  static var previews: some View {
-    HomeView()
-  }
-}
+//struct HomeView_Previews: PreviewProvider {
+//  static var previews: some View {
+//    HomeView()
+//  }
+//}

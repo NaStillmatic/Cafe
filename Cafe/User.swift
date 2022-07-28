@@ -11,5 +11,5 @@ struct User {
   let userName: String
   let account: String
   
-  static let shared = User(userName: "Joe", account: "nastillmatic")  
+  static let shared = User(userName: "Joe", account: "nastillmatic")
 }
